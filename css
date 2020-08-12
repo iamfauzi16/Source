@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+#header-img {
+  text-align : center;
+  font-family: 'Rubik', sans-serif;
+  padding:30px;
+}
+
+#email {
+  margin: 10px;
+  padding : 5px 10px;
+  width : 20%;
+}
+
+
+
+.btn {
+  border: none; /* Remove borders */
+  color: Black; /* Add a text color */
+  padding: 10px 20px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  font-weight : bold;
+  font-size : 14px;
+}
+
+.success {background-color: orange;}
+
+.success:hover {
+  background-color:#f1c40f;
+  border-style: solid;
+}
+
